@@ -1,0 +1,108 @@
+.top-panel{
+    height:40px;
+    background-color:#2196F3;
+    align-items: center;
+}
+.busca{
+    background-color:#fff;
+    border: #2196F3 solid 2px;
+    margin-right: 20px;
+    border-radius:6px;
+}
+.text-fild{
+    
+}
+.conteudo{
+    padding: 20px;
+}
+.rotulo{
+    margin:20px 20px
+}
+.rotulo>h3{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+
+}
+.rotulo>div{
+    width:80px;
+    height: 11px;
+    background-color: #2196F3;
+    
+}
+.baner{
+    padding:0px 20px
+}
+.baner>h3{
+    padding: 20px;
+    font-size:20px;
+
+    
+}
+.baner>img{
+    padding:0px 0px 0px 50px;
+}
+.anuncio{
+    padding:75px 20px 20px 20px;
+    text-align:center;
+}
+.col>p{
+    padding:0px 0px 0px 70px;
+}
+.navegacao{
+    display:flex;
+    margin-right:10px;
+    margin-left:10px;
+}
+.navegacao>li{
+    margin-right:7px;
+    color:#2196F3;
+    
+}
+.navegacao>li>button{
+    color:#2196F3;
+    background-color:#fff;
+    border-radius: 5px;
+    border-top:1px solid #2196F3;
+    width:40px;
+    height: 40px;
+}
+.txt-lis{
+    margin-top:50px;
+    margin-bottom: 80px;
+}
+.card-lista{
+    margin-left: 10vw;
+    
+}
+hr{
+    color:#ffff;
+}
+.redes{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.redes>li{
+    margin-right: 50px;
+}
+.redes>li:hover{
+   background-color: #09477a;
+}
+@media screen and (max-width:999px) {
+    .redes>li{
+        margin-right: 20px;
+    }
+    .card-lista{
+        margin-left: 0vw;
+        
+    }
+    .col>p{
+        padding:0px 0px 0px 0px;
+    }
+    .anuncio{
+        padding:75px 20px 20px 20px;
+        text-align:center;
+        display: none;
+    }
+}
