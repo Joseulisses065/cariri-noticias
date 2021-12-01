@@ -1,7 +1,12 @@
 .top-panel{
-    height:40px;
+    height:52px;
     background-color:#2196F3;
     align-items: center;
+    color: #fff;
+}
+.triops{
+    display:flex;
+    justify-content:space-around;
 }
 .busca{
     background-color:#fff;
@@ -9,6 +14,13 @@
     margin-right: 20px;
     border-radius:6px;
 }
+.col>a{
+    color:black;
+}
+#nav-mobile>li>a{
+    color:black
+}
+
 .text-fild{
     
 }
@@ -25,7 +37,7 @@
 
 }
 .rotulo>div{
-    width:80px;
+    width:100px;
     height: 11px;
     background-color: #2196F3;
     
@@ -43,8 +55,12 @@
     padding:0px 0px 0px 50px;
 }
 .anuncio{
-    padding:75px 20px 20px 20px;
+    padding:100px 20px 20px 20px;
     text-align:center;
+}
+.anuncio>h3{
+   font-size:20px;
+   font-weight:bold;
 }
 .col>p{
     padding:0px 0px 0px 70px;
@@ -64,12 +80,13 @@
     background-color:#fff;
     border-radius: 5px;
     border-top:1px solid #2196F3;
-    width:40px;
-    height: 40px;
+    width:auto;
+    height: auto;
+    padding: 10px;
 }
 .txt-lis{
-    margin-top:50px;
-    margin-bottom: 80px;
+    margin:50px 90px 80px 90px;
+
 }
 .card-lista{
     margin-left: 10vw;
@@ -89,14 +106,18 @@ hr{
 .redes>li:hover{
    background-color: #09477a;
 }
+.footer-barra{
+    display: flex;
+}
+.footer-barra>div{
+    display: flex;
+}
 @media screen and (max-width:999px) {
     .redes>li{
         margin-right: 20px;
     }
-    .card-lista{
-        margin-left: 0vw;
-        
-    }
+    
+   
     .col>p{
         padding:0px 0px 0px 0px;
     }
@@ -105,4 +126,19 @@ hr{
         text-align:center;
         display: none;
     }
+    .conteudo{
+        padding: 2px;
+        
+    }
+    .baner{
+        padding:0px 2px
+    }
+    .ultimo-card{
+        display: none;
+    }
+    .card-lista{
+        justify-content: space-around;
+        
+    }
+    
 }
