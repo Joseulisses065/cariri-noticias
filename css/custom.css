@@ -367,7 +367,7 @@ hr{
     }
     .nav-lista{
         position: absolute;
-        display:block;
+        display:none;
         width: 50vw;
         height: 300px;
         right: 0px;
