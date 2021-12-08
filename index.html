@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Miséria, miséria, Notícias, Notícia, Cariri, Ceará, Juazeiro do Norte, Entretenimento, Esporte, Informação, Música, Televisão, TV, Vídeo, Urgente, Jogo, Game, Diversão">
   <!--importação de js e css do materialize-->
   <link rel="stylesheet" href="css/materialize.css">
   <script type="text/javascript" src="js/materialize.js"></script>
+  <link rel="stylesheet" href="css/videos.css">
   <script type="text/javascript" src="js/java.js"></script>
-  <link rel="stylesheet" href="css/custom.css">
-  <title>Cariri Noticias</title>
   <link rel="icon" href="img/photo_large-removebg-preview.png">
+  <title>Site Miséria - Aconteceu - Tá no Miséria</title>
 </head>
 
 <body>
@@ -49,18 +50,18 @@
 
       <nav>
         <div class="row">
-          <div class="col l3 m4 s4">
-            <a href="index.html"><img src="img/logo_sitemiseria.jpg" class="responsive-img" alt=""></a>
+          <div class="col l3 m4 s5">
+            <a href="Index.html"><img src="img/logo_sitemiseria.jpg" class="responsive-img" alt=""></a>
           </div>
           <div class="col l9 s3 " id='div-menu-coluna'>
-              <ol class="nav-lista">
-                <li><a href="index.html">Ínicio</a></li>
-                <li><a href="">Últimas</a></li>
-                <li><a href="">Cariri</a></li>
-                <li><a href="#colunas">Colunas</a></li>
-                <li><a href="maisVistos.html">Mais vistos</a></li>
-                
-              </ol>
+            <ol class="nav-lista">
+              <li><a href="Index.html">Ínicio</a></li>
+              <li><a href="#ultimas">Últimas</a></li>
+              <li><a href="">Cariri</a></li>
+              <li><a href="#colunas">Colunas</a></li>
+              <li><a href="maisVistos.html">TV Miséria</a></li>
+
+            </ol>
 
           </div>
           <div class="col l1 m3 s3">
@@ -68,11 +69,11 @@
               <input type="checkbox" id="check" onclick="menulateral()">
               <label class="lbl-menu" for="check">
                 <img src="img/menu.png" alt="">
-  
+
               </label>
             </div>
-        </div>
-        
+          </div>
+
         </div>
 
 
@@ -84,183 +85,227 @@
   </header>
   <div class="conteudo">
     <div class="row">
-      <div class="col s12 m12 l9 ">
+      <div id="ultimas" class="col s12 ">
         <div class="rotulo">
-          <h3>Cariri</h3>
+          <h3>Últimas 24 horas</h3>
           <div></div>
         </div>
-        <div class="baner">
-          <h3>Brasil 35 do Ceará nega que Daciolo tenha interesse em Felipe Neto como vice</h3>
-          <img src="https://www.miseria.com.br/wp-content/uploads/2021/12/001-6-660x360.jpg" alt=""
-            class="responsive-img">
-          <div class="anunci-horizontal">
-            <img src="http://www.facebook.com/Barat%C3%A3o-M%C3%B3veis-e-Magazine-116105578485421/" alt="">
+        <div class="video-painel">
+          <div class="row">
+            <div class="col l9 s12">
+              <div class="quatro">
+                <div>
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <div class="video-container">
+                        <img class="responsive-img" src="https://www.miseria.com.br/wp-content/uploads/2021/12/Img1_600x400-600x360.jpg" alt="">
+
+                      </div>
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Prefeito de Juazeiro do Norte recebe o presidente interino da Câmara de Vereadores<i
+                          class="material-icons right">08/12/2021</i></span>
+                          <p><a href="Materia2.html">Veja mais</a></p>                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Prefeito de Juazeiro do Norte<i
+                          class="material-icons right">X</i></span>
+                      <p>O prefeito de Juazeiro do Norte, Glêdson Bezerra (Podemos), se reuniu na tarde desta segunda-feira (6) com o presidente interino da Câmara Municipal, Bilinha (PMN). A gestão municipal afirmou que, na ocasião, foi tratado o alinhamento entre os poderes Executivo e Legislativo.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <div class="video-container">
+                        <img class="responsive-img" src="https://www.miseria.com.br/wp-content/uploads/2021/08/stage-336695_1280-660x360.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">
+                        Yury Paredão Entretenimento cancela festa que não tinha autorização para acontecer<i
+                        class="material-icons right">08/12/2021</i></span>
+                        <p><a href="Materia4.html">Veja mais</a></p>                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Yury Paredão Entretenimento<i
+                          class="material-icons right">X</i></span>
+                      <p>A empresa Yury Paredão Entretenimento anunciou em nota o cancelamento da festa “#EstamosDeVoltaCariri”, que estava marcada para acontecer no próximo dia 18 de dezembro, no parque Pedro Felício Cavalcanti, em Crato. A festa iria contar com os shows dos artistas ‘Xand Avião’, ‘Zé Cantor’ e ‘Zé Vaqueiro’.</p>
+                    </div>
+                  </div>
+
+
+                </div>
+                <div>
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <div class="video-container">
+                        <img class="responsive-img" src="https://www.miseria.com.br/wp-content/uploads/2021/12/001-6-660x360.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">
+                        Brasil 35 do Ceará nega que Daciolo tenha interesse em Felipe Neto como vice em 22<i
+                        class="material-icons right">06/12/2021</i></span>
+                        <p><a href="Materia1.html">Veja mais</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Felipe Neto<i
+                          class="material-icons right">X</i></span>
+                      <p>Representante do Brasil 35 no Ceará, partido ao qual o ex-deputado federal Cabo Daciolo está filiado desde outubro deste ano, o vereador de Fortaleza Wellington Sabóia nega que o correligionário tenha buscado o youtuber Felipe Neto para compor chapa nas eleições presidenciais de 2022.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <div class="video-container">
+                        <img class="responsive-img" src="https://www.miseria.com.br/wp-content/uploads/2021/12/Img0_600x400-13-3-480x280.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">
+                        Garantido na Libertadores de 2022 , Fortaleza faz visita ao Cuiabá pela Série A<i
+                        class="material-icons right">08/12/2021</i></span>
+                        <p><a href="Materia3.html">Veja mais</a></p>                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Libertadores de 2022<i
+                          class="material-icons right">X</i></span>
+                      <p>Já garantido na fase de grupos da Copa Libertadores de 2022, o Fortaleza foi derrotado pelo Cuiabá-MT por 1 a 0 na noite desta segunda-feira, 6, na Arena Pantanal, pela 37ª rodada da Série A do Campeonato Brasileiro. O único gol da partida foi marcado aos oito minutos do primeiro tempo, em cobrança de pênalti convertido por Elton.</p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+
+            </div>
+            <div class="col l3 s12">
+
+              <div class="anuncio">
+
+                <h3>Anúncio</h3>
+                <img src="https://www.sitemiseria.com.br/banners_360/sesi_08_out_2021.jpg" alt=""
+                  class="responsive-img">
+                <img src="https://www.miseria.com.br/wp-content/uploads/2021/12/011-3-300x400.jpg
+                  " alt="" class="responsive-img">
+              </div>
+
+            </div>
+
           </div>
-          <div class="col l12">
-
-            <p>Representante do Brasil 35 no Ceará, partido ao qual o ex-deputado federal Cabo Daciolo está filiado
-              desde outubro deste ano, o vereador de Fortaleza Wellington Sabóia nega que o correligionário tenha
-              buscado o youtuber Felipe Neto para compor chapa nas eleições presidenciais de 2022.</p>
-            <p>“Tão logo tomei conhecimento da notícia, certifiquei junto ao diretório nacional do partido, que afirmou
-              ser fake news. Além disso, Daciolo também se manifestou no perfil pessoal sobre o ocorrido”, explica o
-              parlamentar cearense em nota.
-            </p>
-            <p>O próprio Daciolo se manifestou nas redes sociais sobre o ocorrido com uma passagem bíblica que fala
-              sobre fraude, acusando a publicação de ser inverídica.</p>
-            <p>“Quem pratica a fraude não habitará no meu santuário; o mentiroso não permanecerá na minha presença.
-              Salmos 101:7”, escreveu o pré-candidato à República.
-            </p>
-            <p>“Quem pratica a fraude não habitará no meu santuário; o mentiroso não permanecerá na minha presença.
-              Salmos 101:7”, escreveu o pré-candidato à República.</p>
-            <p>“Nosso partido, Brasil 35, mesma agremiação do pré-candidato à presidência da República, Daciolo destaca
-              a importância dos internautas conferirem a veracidade dos fatos, pois somente desta forma haverá uma ação
-              fortalecida no combate à veiculação de informações falsas”, escreve.</p>
-            <p>Representante do Brasil 35 no Ceará, partido ao qual o ex-deputado federal Cabo Daciolo está filiado
-              desde outubro deste ano, o vereador de Fortaleza Wellington Sabóia nega que o correligionário tenha
-              buscado o youtuber Felipe Neto para compor chapa nas eleições presidenciais de 2022.</p>
-            <p>“Tão logo tomei conhecimento da notícia, certifiquei junto ao diretório nacional do partido, que afirmou
-              ser fake news. Além disso, Daciolo também se manifestou no perfil pessoal sobre o ocorrido”, explica o
-              parlamentar cearense em nota.
-            </p>
-            <p>O próprio Daciolo se manifestou nas redes sociais sobre o ocorrido com uma passagem bíblica que fala
-              sobre fraude, acusando a publicação de ser inverídica.</p>
-            <p>“Quem pratica a fraude não habitará no meu santuário; o mentiroso não permanecerá na minha presença.
-              Salmos 101:7”, escreveu o pré-candidato à República.
-            </p>
-          </div>
-
-        </div>
-
-      </div>
-      <div class="col l3 ">
-        <div class="anuncio">
-
-          <h3>Anúncio</h3>
-          <img src="https://www.sitemiseria.com.br/banners_360/sesi_08_out_2021.jpg" alt="" class="responsive-img">
-          <img src="https://www.miseria.com.br/wp-content/uploads/2021/12/011-3-300x400.jpg
-          " alt="" class="responsive-img">
         </div>
       </div>
-    </div>
-    <div class="row">
 
     </div>
-    <div class="row">
-      <div class="col l3">
-        <ul class="navegacao">
-          <li><button>1</button></li>
-          <li><button>2</button></li>
-          <li><button>3</button></li>
-          <li><button>4</button></li>
-          <li>...</li>
-          <li><button>12</button></li>
-          <li><button>Proximo</button></li>
 
-        </ul>
 
-      </div>
+  </div>
 
-    </div>
+  <div class="baner-videos">
     <div class="rotulo">
-      <h3>+ Lidas</h3>
+      <h3>TV</h3>
       <div></div>
     </div>
     <div class="row ">
-      <div class="col l6">
-        <p class="txt-lis">1 - Nemo enim ipsam voluptatem quia
-          luptas sit aspernatur aut odit aut fugit, sed
-          quia consequuntur nemo enim ipsam</p>
-        <p class="txt-lis">1 - Nemo enim ipsam voluptatem quia
-          luptas sit aspernatur aut odit aut fugit, sed
-          quia consequuntur nemo enim ipsam</p>
+      <div wwclass="col l6 s12">
+        <div class="video-img-baner">
+          <div>
+            <div class="video-baner-contein">
+              <iframe width="100%" height="300px" src="https://www.youtube.com/embed/4tchc8M_s9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div>
+              <h4>
+                Jovem que colidiu motocicleta com carro em Icó</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nisi eaque tenetur, officiis illum vero quidem sunt, exercitationem optio assumenda, quae in quisquam error. Totam enim beatae dolore optio! Nemo!</p>
+              <a href="maisVistos.html"><input class="botão-leia-mais" type="button" value="Veja mais videos"></a>
+            </div>
+            <div>
+              
+            </div>
+          </div>
+
+        </div>
+
       </div>
-      <div class="col l6">
-        <p class="txt-lis">1 - Nemo enim ipsam voluptatem quia
-          luptas sit aspernatur aut odit aut fugit, sed
-          quia consequuntur nemo enim ipsam</p>
-        <p class="txt-lis">1 - Nemo enim ipsam voluptatem quia
-          luptas sit aspernatur aut odit aut fugit, sed
-          quia consequuntur nemo enim ipsam</p>
-      </div>
+    </div>
+  </div>
+  <div class="sub-video-baner">
+    
+    
 
 
-      <div class="rotulo">
-        <h3>Colunas</h3>
-        <div></div>
-      </div>
-      <!--item-wrep-->
-      <div id="colunas" class="carrosel">
-        <div class='row'>
-          <div class="col l4 m6">
+
+    <div class="rotulo">
+      <h3>Colunas</h3>
+      <div></div>
+    </div>
+    <!--item-wrep-->
+    <div id="colunas" class="carrosel">
+      <div class='row'>
+        <div class="col l4 m6">
+          <div class="card sticky-action">
+            <a href="Colunab.html">
+              <img class="card-img"
+                src="img/jornalista.jpg" alt="">
+
+              <div class="card-action">
+                <h3>Dr.Beatriz Alcântara</h3>Jornalista e escritora. Beatriz Alcântara atua como diretora de jornalismo e comentarista comtambem colunista político do Jornal do Cariri.
+              </div>
+
+              <div class="card-reveal">...</div>
+
+            </a>
+
+          
+        </div>
+        </div>
+        <div class="col l4 m6">
+          <div class="card sticky-action">
+            <a href="Coluna.html">
+              <img class="card-img"
+                src="https://www.miseria.com.br/wp-content/themes/miseria/assets/img/collumns/madson.jpeg" alt="">
+
+              <div class="card-action">
+                <h3>Dr.Emanuel Teles</h3>
+                Jornalista e escritor. Madson Vagner atua como diretor de jornalismo e comentarista da Rádio 100 FM e
+                colunista político do Jornal do Cariri.
+
+              </div>
+
+              <div class="card-reveal">...</div>
+
+            </a>
+
+          </div>
+        </div>
+        <div class="col l4">
+          <div class="ultimo-card">
+
             <div class="card sticky-action">
-              <a href="Coluna.html">
+              <a href="Colunadr.html">
                 <img class="card-img"
                   src="https://www.miseria.com.br/wp-content/themes/miseria/assets/img/collumns/dr-thiago.jpg" alt="">
 
                 <div class="card-action">
-                  <h3>Dr.Thiago Macedo
-                  </h3>
-                  É correspondente colaborador dos jornais O Estado de S. Paulo e O Globo do Rio. Faz parte dos quadros de autores da Editora Novo Século.
-              
+                  <h3>Dr.Thiago Macedo</h3>Jornalista e escritor. Madson Vagner atua como diretor de jornalismo e
+                  comentarista da Rádio 100 FM e colunista político do Jornal do Cariri.
                 </div>
 
                 <div class="card-reveal">...</div>
 
               </a>
 
-            </div>
-          </div>
-          <div class="col l4 m6">
-            <div class="card sticky-action">
-              <a href="Coluna.html">
-                <img class="card-img"
-                  src="https://www.miseria.com.br/wp-content/themes/miseria/assets/img/collumns/madson.jpeg" alt="">
-
-                <div class="card-action">
-                  <h3>Dr.Emanuel Teles</h3>
-                  Jornalista e escritor. Madson Vagner atua como diretor de jornalismo e comentarista da Rádio 100 FM e colunista político do Jornal do Cariri.
-              
-                </div>
-
-                <div class="card-reveal">...</div>
-
-              </a>
 
             </div>
-          </div>
-          <div class="col l4">
-            <div class="ultimo-card">
-         
-                <div class="card sticky-action">
-                  <a href="Coluna.html">
-                    <img class="card-img"
-                      src="https://www.miseria.com.br/wp-content/themes/miseria/assets/img/collumns/dr-thiago.jpg" alt="">
-    
-                    <div class="card-action">
-                      <h3>Dr.Thiago Macedo</h3>Jornalista e escritor. Madson Vagner atua como diretor de jornalismo e comentarista da Rádio 100 FM e colunista político do Jornal do Cariri.
-                    </div>
-    
-                    <div class="card-reveal">...</div>
-    
-                  </a>
-    
-                
-              </div>
-            </div>
-            
           </div>
 
         </div>
-
-
 
       </div>
 
 
     </div>
+
   </div>
 
-  <footer>
+
+  <footer class="footer">
     <div class="row">
       <div class="footer-conteiner">
         <div class="footer-barra">
