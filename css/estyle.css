@@ -1,0 +1,393 @@
+/*geral*/
+
+ :root {
+    --vermelho-padrao: #c21212;
+}
+
+* {
+    transition: 0.6s;
+    text-decoration: none;
+    list-style: none;
+}
+
+main {
+    height: 100%;
+}
+
+
+/*login*/
+
+
+/*barra de navegação*/
+
+#it1 {
+    border-bottom: 1vh solid white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-container {
+    height: 10vh;
+    background-color: var(--vermelho-padrao);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    box-shadow: 1px 2px 5px rgb(39, 38, 38);
+}
+
+.bolha {
+    display: none;
+}
+
+.logo {
+    width: 9vh;
+    height: auto;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--vermelho-padrao);
+    padding: 15px;
+    width: 50%;
+    right: 100%;
+    margin-bottom: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.menu-it>a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+#ck {
+    display: none;
+}
+
+header {
+    position: relative;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5vw 0px 5vw;
+}
+
+.btn-log-container>button {
+    border-radius: 30px;
+    color: #000000;
+    border: 2px solid white;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+
+/*corpo do site geral*/
+
+main>div {
+    height: 100vh;
+}
+
+.setor {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    background-color: #c21212;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/*corpo do site setore 1*/
+
+#setor-1 {
+    background-color: #0d1017;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1fr);
+    height: 100%;
+}
+
+.content-img {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    grid-column: 1;
+}
+
+.txt-container {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 4vw;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    grid-column: 2;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.btn-container>button {
+    background-color: var(--vermelho-padrao);
+    border-radius: 20px;
+    color: white;
+    padding: 1vh;
+}
+
+.btn-container>button>a {
+    font-weight: bold;
+    color: white;
+}
+
+.barra {
+    width: 20vw;
+    height: 2vh;
+    background-color: #ffffff;
+    align-self: center;
+}
+
+
+/*corpo do site setore 2*/
+
+#setor-2 {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+
+/*corpo do site setore 3*/
+
+#setor-3 {
+    background-color: #0d1017;
+    height: 100vh;
+}
+
+
+/*corpo do site setore 4*/
+
+#setor-4 {
+    background-color: #0d1017;
+    background-image: url('/assets/img/background-tela-home-full.jpeg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#setor-4>div {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 4vw;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    grid-column: 2;
+}
+
+.mapa-side>iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.mapa-side {
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+}
+
+
+/* login*/
+
+.botoes-grupo {
+    display: flex;
+}
+
+.botoes-grupo>button {
+    margin-bottom: 2vh;
+}
+
+.cf {
+    padding: 0%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*applies to x-small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 350px) {}
+
+
+/*applies to x-small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    /*barra de navegação*/
+    .menu-container {
+        position: absolute;
+        width: 100%;
+        top: 10vh
+    }
+    .btn-log-container {
+        display: none;
+    }
+    #ck {
+        display: none;
+    }
+    header {
+        position: relative;
+    }
+    .bolha {
+        display: block;
+    }
+    .bolha>label {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .linha1 {
+        width: 25px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: aliceblue;
+        transition: 0.6s;
+    }
+    .linha2 {
+        width: 15px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: aliceblue;
+        margin-top: 2px;
+        transition: 0.6s;
+    }
+    /*corpo do site geral*/
+    .setor {
+        background-color: #0d1017;
+        background-image: url("/assets/img/background-tela-home-mobile.jpg");
+        background-repeat: no-repeat;
+    }
+    /*corpo do site setore 1*/
+    #setor-1 {
+        display: block;
+        height: 100vh;
+        background-color: #0d1017;
+    }
+    .content-img {
+        display: none;
+    }
+    .txt-container {
+        width: 100vw;
+    }
+    .btn-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 3vh;
+    }
+    .btn-container>button {
+        padding: 1.5vh;
+    }
+    /*corpo do site setore 2*/
+    #setor-2 {
+        background-color: #0d1017;
+        display: flex;
+        height: 100vh;
+        flex-direction: column-reverse;
+        justify-content: end;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    /*corpo do site setore 3*/
+    #setor-3 {
+        background-color: #0d1017;
+        display: flex;
+        height: 100vh;
+        flex-direction: column-reverse;
+        justify-content: end;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    /*corpo do site setore 4*/
+    #setor-4 {
+        background-image: url('/assets/img/background-tela-home-full.jpeg');
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #setor-4>div {
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 4vw;
+        justify-content: center;
+        align-self: center;
+        color: white;
+        grid-column: 2;
+    }
+    /*login*/
+    .formulario_de_login {
+        box-shadow: none;
+        padding: 30px;
+    }
+    .container-formulario {
+        width: 100vw;
+        height: 100%;
+    }
+    .cf {
+        padding: 0%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .formulario_de_login {
+        padding: 30px;
+    }
+}
+
+
+/*applies to small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 767.98px) {}
+
+
+/*applies to medium devices (tablets, less than 992px)*/
+
+@media (max-width: 991.98px) {}
+
+
+/*`xl` applies to large devices (desktops, less than 1200px)*/
+
+@media (max-width: 1199.98px) {}
+
+
+/*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
+
+@media (max-width: 1399.98px) {}
